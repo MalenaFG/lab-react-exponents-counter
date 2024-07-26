@@ -1,5 +1,5 @@
 const ExponentThree = ({ count }) => {
-  let result = count * count * count
+  let result = Math.pow(count, 3)
 
   return (
     <div className="exponent-counter-container">

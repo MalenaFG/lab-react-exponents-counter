@@ -1,5 +1,5 @@
 const ExponentTwo = ({ count }) => {
-  let result = count * count
+  let result = Math.pow(count, 2)
 
   return (
     <div className="exponent-counter-container">

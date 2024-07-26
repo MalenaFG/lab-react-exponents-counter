@@ -1,5 +1,5 @@
 const ExponentFour = ({ count }) => {
-  let result = count * count * count * count
+  let result = Math.pow(count, 4)
 
   return (<div className="exponent-counter-container">
     <p className="exponent-label">{count}⁴</p>

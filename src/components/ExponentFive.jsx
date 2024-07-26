@@ -1,5 +1,5 @@
 const ExponentFive = ({ count }) => {
-  let result = count * count * count * count * count
+  let result = Math.pow(count, 5)
 
   return (
     <div className="exponent-counter-container">
